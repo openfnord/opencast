@@ -2668,6 +2668,9 @@ public abstract class AbstractEventEndpoint {
       Set<SortCriterion> sortCriteria = RestUtils.parseSortQueryParameter(optSort.get());
       for (SortCriterion criterion : sortCriteria) {
         switch (criterion.getFieldName()) {
+          case EventIndexSchema.UID:
+            query.sortByUID(criterion.getOrder());
+            break;
           case EventIndexSchema.TITLE:
             query.sortByTitle(criterion.getOrder());
             break;
