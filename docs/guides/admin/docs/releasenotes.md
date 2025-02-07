@@ -1,5 +1,9 @@
 # Opencast 16: Release Notes
 
+## Opencast 16.9
+
+This release enables Opencast to wait until the Elasticsearch/Opensearch index becomes available during boot-up.
+
 ## Opencast 16.8
 
 This is a maintenance release of Opencast 16. It fixes several minor bugs.

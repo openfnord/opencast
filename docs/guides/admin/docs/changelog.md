@@ -4,8 +4,42 @@ Changelog
 Opencast 16
 -----------
 
+### Opencast 16.9
+
+- [[#6437](https://github.com/opencast/opencast/pull/6437)] -
+  Migrate away from deprecated ::set-output in GitHub Actions
+- [[#6434](https://github.com/opencast/opencast/pull/6434)] -
+  Handle Opencast starting up before index is available
+
+### Opencast 16.8
+
+- [[#6047](https://github.com/opencast/opencast/pull/6047)] -
+  Release Notes for 6046 for OC 16
+- [[#6435](https://github.com/opencast/opencast/pull/6435)] -
+  Update releasenotes.md
+- [[#6429](https://github.com/opencast/opencast/pull/6429)] -
+  Fix OCR transcriptions in Paella player
+- [[#6385](https://github.com/opencast/opencast/pull/6385)] -
+  Allow live events to be published by the CA user
+- [[#6381](https://github.com/opencast/opencast/pull/6381)] -
+  Search Service Index Rebuild fails when done on the presentation node
+- [[#6367](https://github.com/opencast/opencast/pull/6367)] -
+  Segment preview image URL fixed for Tobira
+- [[#6363](https://github.com/opencast/opencast/pull/6363)] -
+  Fix partial retract streaming elements
+- [[#6329](https://github.com/opencast/opencast/pull/6329)] -
+  Fixed divide by zero in search index rebuild
+- [[#6328](https://github.com/opencast/opencast/pull/6328)] -
+  Fix incorrect episode count in LTI series tool
+- [[#6252](https://github.com/opencast/opencast/pull/6252)] -
+  Disable hard linking between organizations
+- [[#6233](https://github.com/opencast/opencast/pull/6233)] -
+  Handle content id being null for playlist entries
+
 ### Opencast 16.7
 
+- [[#6318](https://github.com/opencast/opencast/pull/6318)] -
+  Opencast 16.7
 - [[GHSA-jh6x-7xfg-9cq2](https://github.com/opencast/opencast/security/advisories/GHSA-jh6x-7xfg-9cq2) -
   Searching Opencast may cause a denial of service (CVE-2024-52797)
 - [[#6315](https://github.com/opencast/opencast/pull/6315)] -
