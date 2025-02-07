@@ -47,7 +47,7 @@ fail. The waiting period is used to not overwhelm the Elasticsearch with retry r
 default, no retry will be attempted.
 
 The `retry.delay.on.startup` defines how long Opencast will wait between retry attempts 
-when the connection to the index service fails on startup. The default is 10 seconds.
+when the connection to the index fails on startup. The default is 10 seconds.
 
 
 Version
