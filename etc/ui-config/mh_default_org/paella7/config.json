@@ -485,7 +485,7 @@
 
         "/* videocontainer toolbar */": "*********************************************************",
         "org.opencast.paella.loginPlugin": {
-            "enabled": true,
+            "enabled": false,
             "side": "right",
             "parentContainer": "videoContainer",
             "order": 10,
