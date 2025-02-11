@@ -1134,6 +1134,15 @@ public class EventSearchQuery extends AbstractSearchQuery {
     return getSortOrder(EventIndexSchema.TITLE);
   }
 
+  public EventSearchQuery sortByUID(Order order) {
+    withSortOrder(EventIndexSchema.UID, order);
+    return this;
+  }
+
+  public Order getUIDSortOrder() {
+    return getSortOrder(EventIndexSchema.UID);
+  }
+
   /**
    * Defines the sort order for the recording date.
    *

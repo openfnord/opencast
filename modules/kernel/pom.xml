@@ -60,6 +60,10 @@
       <artifactId>jakarta.xml.bind-api</artifactId>
     </dependency>
     <dependency>
+      <groupId>jakarta.xml.ws</groupId>
+      <artifactId>jakarta.xml.ws-api</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.codehaus.jettison</groupId>
       <artifactId>jettison</artifactId>
     </dependency>
@@ -252,6 +256,7 @@
             <!-- provide a logger for tests -->
             <ignoredUnusedDeclaredDependency>org.slf4j:slf4j-reload4j</ignoredUnusedDeclaredDependency>
             <ignoredUnusedDeclaredDependency>com.h2database:h2</ignoredUnusedDeclaredDependency>
+            <ignoredUnusedDeclaredDependency>jakarta.xml.ws:jakarta.xml.ws-api</ignoredUnusedDeclaredDependency>
           </ignoredUnusedDeclaredDependencies>
         </configuration>
       </plugin>

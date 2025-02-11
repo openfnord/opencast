@@ -403,6 +403,13 @@ Opencast 17
 Opencast 16
 -----------
 
+### Opencast 16.9
+
+- [[#6437](https://github.com/opencast/opencast/pull/6437)] -
+  Migrate away from deprecated ::set-output in GitHub Actions
+- [[#6434](https://github.com/opencast/opencast/pull/6434)] -
+  Handle Opencast starting up before index is available
+
 ### Opencast 16.8
 
 - [[#6429](https://github.com/opencast/opencast/pull/6429)] -
@@ -428,6 +435,8 @@ Opencast 16
 
 ### Opencast 16.7
 
+- [[#6318](https://github.com/opencast/opencast/pull/6318)] -
+  Opencast 16.7
 - [[GHSA-jh6x-7xfg-9cq2](https://github.com/opencast/opencast/security/advisories/GHSA-jh6x-7xfg-9cq2) -
   Searching Opencast may cause a denial of service (CVE-2024-52797)
 - [[#6315](https://github.com/opencast/opencast/pull/6315)] -
